@@ -7,7 +7,7 @@ from openpyxl.styles import PatternFill, Border, Side
 import logger
 import excel_new_file
 
-
+# constants
 EXCEL_OUTPUT_DIR = ''
 EXCEL_DATA_ROW_START_INDEX = 1
 
