@@ -8,7 +8,8 @@ import logger
 import excel_new_file
 
 
-EXCEL_OUTPUT_DIR, EXCEL_DATA_ROW_START_INDEX, DEFAULT_NOT_AVAILABLE_STRING
+EXCEL_OUTPUT_DIR = ''
+EXCEL_DATA_ROW_START_INDEX = 1
 
 # create new Excel file for export
 def create_file(lines_of_data, filepath):
